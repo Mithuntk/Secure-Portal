@@ -1,0 +1,50 @@
+/* App.css */
+
+.register {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #522929;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .register h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register label {
+    margin-bottom: 5px;
+  }
+  
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #654a4a;
+    border-radius: 3px;
+  }
+  
+  .register button[type="submit"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .register button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

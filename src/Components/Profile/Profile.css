@@ -1,0 +1,61 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1666549467789-d62b3099308e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: #cabbbb;
+    animation: slide 10s linear infinite;
+    /* Your desired background color */
+  }
+  @keyframes slide {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+   
+.profile {
+    padding: 20px;
+    border: 1px ;
+    border-radius: 5px;
+    
+    text-align: center;
+    padding-top: 30px;
+
+  }
+  
+  .profile h2 {
+    margin-bottom: 10px;
+    color: #ee640f;
+    font-size: 50px;
+    overflow: hidden;
+  border-right: 2px solid black; /* Cursor style */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  animation: typing 2s steps(40) infinite alternate;
+  }
+  
+  .profile p {
+    color: #f4e9ea;
+    font-size: 30px;
+        
+  }
+  .header{margin-left: 60%;
+  color: rgb(242, 14, 97);
+  text-decoration: none;
+
+  }
+  .out{
+    background-color: red;
+}
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 20%; }
+  }
+  
+  
+  
+  /* You can add more styles as needed */
+  
